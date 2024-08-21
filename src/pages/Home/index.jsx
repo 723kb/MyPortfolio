@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Section from "../../components/Section.jsx";
 import Introduction from "../../components/Introduction.jsx";
 import SkillList from "../../components/SkillList.jsx";
+import Header from "../../components/Header/index.jsx";
+import Footer from "../../components/Footer/index.jsx";
 
 const Home = () => {
   const languages = [
@@ -17,6 +19,8 @@ const Home = () => {
   const tools = ["GitHub", "Docker", "Amazon Web Services"];
 
   return (
+    <>
+    <Header />
     <main className="mt-4 flex flex-col justify-center items-center">
       <h1 className="text-xl font-bold">ようこそ、私のポートフォリオへ</h1>
       <p className="mt-2">
@@ -67,6 +71,8 @@ const Home = () => {
         </ul>
       </Section>
     </main>
+    <Footer />
+    </>
   );
 };
 
