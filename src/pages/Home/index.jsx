@@ -10,8 +10,8 @@ const Home = () => {
     "2024.2- JavaScript",
     "2024.5- React",
     "2024.6- PHP",
-    "2024.7- Laravel",
     "2024.6- SQL",
+    "2024.7- Laravel",
   ];
 
   const tools = ["GitHub", "Docker", "Amazon Web Services"];
